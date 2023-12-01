@@ -1,24 +1,29 @@
 import logo from './logo.svg';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
+import Header from "./components/Header/Header"
+import Hero from './components/Hero/Hero';
+import Gryffindor from "./containers/gryffindor/Gryffindor"
+import Hufflepuff from "./containers/Hufflepuff"
+import Ravenclaw from "./containers/Ravenclaw"
+import Slytherin from "./containers/Slytherin"
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Header/>
+    <Hero/>
+    <Routes>
+      <Route path='Gryffindor' element={<Gryffindor/>}/>
+      <Route path='Hufflepuff' element={<Hufflepuff/>}/>
+      <Route path='Ravenclaw' element={<Ravenclaw/>}/>
+      <Route path='Slytherin' element={<Slytherin/>}/>
+
+    </Routes>
+    </BrowserRouter>
   );
 }
 
