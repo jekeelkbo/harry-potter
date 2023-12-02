@@ -1,0 +1,14 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #252633;
+    color: #fff;
+    font-size: 50px;
+    height: 80px;
+}
+
+.menu {
+    font-size: 30px;
+    margin-right: 20px;
+
+}
