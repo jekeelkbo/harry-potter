@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+
 .headerContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #252633;
     color: #fff;
+    font-family: 'Metal Mania',cursive;
     font-size: 50px;
     height: 80px;
+    align-items: center;
 }
-
-.menu {
+.headerContainer
+.menu{
     font-size: 30px;
     margin-right: 20px;
-
+    
 }

@@ -8,7 +8,7 @@ const Card=(props)=>{
 
 
 <div className="characterName">
-<p>nom: {props.name}</p>
+<p>{props.name}</p>
 <img className="characters" src={props.image}/>  
 </div>
     

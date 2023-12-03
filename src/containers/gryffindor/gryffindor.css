@@ -1,5 +1,23 @@
+.gryffContainer{
+    background-color:  #252633;
+    color: white;
+    
+}
+
+
+
 .characterContainer{
     display: flex;
     justify-content: space-around;
-    padding: 45px;
+    padding: 10px;
+}
+.homeInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1px;
+}
+.homeInput>img{
+    height:150px;
+    width: 150px;
 }
