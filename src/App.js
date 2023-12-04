@@ -15,7 +15,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className='App'>
-        <Header />
+        <Header>
+          <button>modenuit</button>
+        </Header>
         <Hero />
         <Routes>
           <Route path='/' element={<div>test</div>}/>

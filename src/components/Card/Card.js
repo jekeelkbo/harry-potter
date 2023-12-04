@@ -9,7 +9,8 @@ const Card=(props)=>{
 
 <div className="characterName">
 <p>{props.name}</p>
-<img className="characters" src={props.image}/>  
+<img className="characters" src={props.image}
+/>  
 </div>
     
 

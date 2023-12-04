@@ -3,10 +3,29 @@ import Card from "../../components/Card/Card"
 import Hero from "../../components/Hero/Hero"
 import Modal from "../../components/Hero/Modal/Modal"
 import Home1 from "../../assets/gryf.png"
+import { useState } from "react"
+
 
 
 const Gryffindor = () => {
+  const[modal,setModal]=useState(false)
   const apiAnswer = [
+    {
+      name: "Harry Potter",
+      image: "https://ik.imagekit.io/hpapi/harry.jpg",
+    },
+    {
+      name: "Hermione Granger",
+      image: "https://ik.imagekit.io/hpapi/hermione.jpeg",
+    },
+    {
+      name: "Ron Weasley",
+      image: "https://ik.imagekit.io/hpapi/ron.jpg",
+    },
+    {
+      name: "Minerva McGonagall",
+      image: "https://ik.imagekit.io/hpapi/mcgonagall.jpg",
+    },
     {
       name: "Harry Potter",
       image: "https://ik.imagekit.io/hpapi/harry.jpg",
