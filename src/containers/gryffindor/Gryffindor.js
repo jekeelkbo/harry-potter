@@ -8,7 +8,6 @@ import { useState } from "react"
 
 
 const Gryffindor = () => {
-  const[modal,setModal]=useState(false)
   const apiAnswer = [
     {
       name: "Harry Potter",
@@ -43,6 +42,9 @@ const Gryffindor = () => {
       image: "https://ik.imagekit.io/hpapi/mcgonagall.jpg",
     },
   ];
+
+  
+
 
   return (
     <div className="gryffContainer"> 

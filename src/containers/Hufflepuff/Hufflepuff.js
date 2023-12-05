@@ -2,7 +2,7 @@ import "./hufflepuff.css"
 import Card from "../../components/Card/Card"
 import Hero from "../../components/Hero/Hero"
 import Modal from "../../components/Hero/Modal/Modal"
-import Home1 from "../../assets/gryf.png"
+import Home2 from "../../assets/hufflepuff.png"
 
 
 const Hufflepuff = () => {
@@ -45,7 +45,7 @@ const Hufflepuff = () => {
       <div className="gryffContainer"> 
   
   <div className="homeInput">
-    <img src={Home1} alt="home"></img>
+    <img src={Home2} alt="home"></img>
     <div><input type="text" value=""/></div>
     </div>
         <div className="characterContainer">

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 import App from "../../App"
 import { useState } from "react"
 
-const Header=()=>{
+const Header=({children})=>{
     const [theme,setTheme]=useState(false)
     return(
 <div className="headerContainer">
@@ -17,10 +17,7 @@ const Header=()=>{
 <Link className="menu" to="/Slytherin" > Slytherin</Link>
 HARRY POTTER
 <Link className="menu" to="/">Home</Link>
-<button className="nightDay"onClick={()=>{
-    console.log("il doit faire nuit")
-}}>🌒</button>
-
+<div>{children}</div>
 </div>
     )
 }

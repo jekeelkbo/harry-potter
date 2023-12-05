@@ -8,9 +8,9 @@
 
 .characterContainer{
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
+    
     overflow: scroll;
+    
 }
 .homeInput{
     display: flex;
